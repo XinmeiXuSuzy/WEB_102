@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Images/Jerica-grass.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: black;
+    background-color: pink;
+    font-family: "Merriweather Sans";
+}
+
+h1 {
+    background-color: pink;
+    font-size: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: -55px;
+    border-bottom: 5px solid black;
+    height: auto;
+    padding: 0 auto;
+    min-width: 520px;
+}
+
+.main {
+   display: inline-block; 
+   position: relative;
+   top: 140px;
+}
+
+.showcase {
+    width: 40%;
+    padding: 0 100px;
+    display: inline-block; 
+    min-width: 250px;
+
+}
+
+.showcase img {
+    max-width: 100%;
+    min-width: 250px;
+
+}
+
+.showcase img:hover {
+    max-width: 100%;
+    border: 10px solid white;
+}
+
+h1:hover {
+    background-color: black;
+    color: pink;
+}
+
+body{
+    text-align: center;
+}

@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    background-color: #170c10;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: solid 2px #f79aaf;
+    background-color: #3b2229ee;
+    z-index: 2;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.logo {
+    flex: 1;
+    font-size: 32px;
+    color: 	#ebabbb;
+    text-decoration: none;
+    font-family: "PT Serif";
+    padding-left: 2rem;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+
+}
+
+
+header nav ul {
+    display: flex;
+    padding-right: 1rem;
+}
+
+nav li {
+    padding: 0 1.2rem;
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    color: #b0919e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+    transition: 100ms linear 20ms;
+}
+
+nav a:hover {
+    color: #e9ced9;
+    font-size: 1.2rem;
+}
+
+.main-content {
+    position: relative;
+    top: 5rem;
+}
+
+.slogan {
+    font-size: 6.5rem;
+    color: #dd9faf;
+    text-align: center;
+    padding: 6rem 3rem;
+    margin: 9rem;
+    font-style: italic;
+    overflow: visible;
+    transition: color 800ms ease-out 80ms, font-size 1s ease-out 80ms;
+}
+
+.slogan:hover {
+    color: #e2c0c8;
+    font-size: 7rem;
+}
+
+.projects {
+    background-color: #441f29;
+    height: auto;
+    padding-bottom: 5rem;
+}
+
+.section-head {
+
+}
+
+.projects h2 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-family: Roboto;
+    letter-spacing: 3px;
+    text-align: center;
+    color:#ba8ea0;
+    font-weight: 700;
+    padding-top: 6.5rem;
+    padding-bottom: 1.5rem;
+    text-shadow: #170c10 0 0 10px;
+}
+
+.project-container {
+    margin: 3rem 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-block {
+    border: solid 4px rgb(151, 101, 111);
+    min-height: 30rem;
+    min-width: 20rem;
+    flex: 1;
+    margin: 2.3rem;
+    border-radius: 1rem;
+    background-color: #ddacb2;
+    transition: color 100ms ease-in 10ms;
+}
+
+.project-block:hover {
+    background-color: #f1ccd0;
+}

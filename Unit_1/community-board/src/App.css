@@ -1,0 +1,8 @@
+* {
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+}
