@@ -8,13 +8,12 @@
 }
 
 h1 {
-  margin: 9rem auto 3rem;
+  margin: 10rem auto 3rem;
   font-size: 3rem;
 }
 
-h2 {
-  padding-bottom: 3rem;
-  border: 1px solid black;
+.title h3 {
+  font-style: italic;
 }
 
 .board {

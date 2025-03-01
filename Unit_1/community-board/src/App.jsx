@@ -5,7 +5,11 @@ const App = () => {
   return (
     <div>
       <div className='title'>
-        <h1>Irvine's Restaurants Selection</h1>
+        <h1>
+          <span style={{ fontSize: "7rem" , fontFamily: "Times"}}>I</span>
+          <span style={{ fontSize: "5rem" , fontFamily: "Times"}}>RVINE's</span> Restaurant 
+          <span style={{ color: "brown", fontStyle: "italic" }}> Selection</span>
+        </h1>
         <h3>Updated on Mar 1st, 2025</h3>
       </div>
       <div className="board">
