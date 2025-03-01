@@ -1,8 +1,25 @@
 * {
   text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.title {
+  margin-bottom: 5rem;
+}
+
+h1 {
+  margin: 9rem auto 3rem;
+  font-size: 3rem;
+}
+
+h2 {
+  padding-bottom: 3rem;
+  border: 1px solid black;
 }
 
 .board {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 3rem;
 }

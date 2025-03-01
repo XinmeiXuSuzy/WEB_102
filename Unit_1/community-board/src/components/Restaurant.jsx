@@ -8,7 +8,7 @@ const Restaurant = (props) => {
             </div>
             <div className="content">
                 <h3>{props.name}</h3>
-                <h4>{props.cuisine}</h4>
+                <h4>{props.location}</h4>
                 <a href={props.link} target="_blank"><button>Learn More</button></a>
             </div>
         </div>

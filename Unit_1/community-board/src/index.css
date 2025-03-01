@@ -1,3 +1,10 @@
+.res-block {
+  margin: 2rem 1rem;
+  border: 2px solid rgb(79, 79, 79);
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
+}
+
 .img-container {
   width: 20vw;
 }
@@ -5,4 +12,37 @@
 img {
   width: 100%;
   height: 28vh;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.content h3 {
+   font-size: 1.3rem;
+   
+}
+
+.content h4 {
+  line-height: 0px;
+  margin-bottom: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(86, 86, 86);
+  font-weight: 400;
+}
+
+.content button {
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.content button:hover {
+  background-color: rgb(255, 221, 128);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: rgb(95, 70, 0);
+  box-shadow: 0 0 10px rgb(207, 205, 195);
+  font-weight: 500;
 }
