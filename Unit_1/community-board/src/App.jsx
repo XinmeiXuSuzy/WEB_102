@@ -6,9 +6,7 @@ const App = () => {
     <div>
       <div className='title'>
         <h1>
-          <span style={{ fontSize: "7rem" , fontFamily: "Times"}}>I</span>
-          <span style={{ fontSize: "5rem" , fontFamily: "Times"}}>RVINE's</span> Restaurant 
-          <span style={{ color: "brown", fontStyle: "italic" }}> Selection</span>
+          Irvine's Restaurant Selections
         </h1>
         <h3>Updated on Mar 1st, 2025</h3>
       </div>
@@ -37,12 +35,42 @@ const App = () => {
           photo="../public/images/franksbbq.jpg" 
           link="https://www.frankschinesebbq.com/"
         />
-        <Restaurant name="" location="" photo="" link=""/>
-        <Restaurant name="" location="" photo="" link=""/>
-        <Restaurant name="" location="" photo="" link=""/>
-        <Restaurant name="" location="" photo="" link=""/>
-        <Restaurant name="" location="" photo="" link=""/>
-        <Restaurant name="" location="" photo="" link=""/>
+        <Restaurant 
+          name="Marufuku Ramen" 
+          location="Irvine Spectrum" 
+          photo="../public/images/ramen.jpg" 
+          link="https://www.marufukuramen.com/irvine"
+        />
+        <Restaurant 
+          name="Marufuku Ramen" 
+          location="Irvine Spectrum" 
+          photo="../public/images/ramen.jpg" 
+          link="https://www.marufukuramen.com/irvine"
+        />
+        <Restaurant 
+          name="Marufuku Ramen" 
+          location="Irvine Spectrum" 
+          photo="../public/images/ramen.jpg" 
+          link="https://www.marufukuramen.com/irvine"
+        />
+        <Restaurant 
+          name="Marufuku Ramen" 
+          location="Irvine Spectrum" 
+          photo="../public/images/ramen.jpg" 
+          link="https://www.marufukuramen.com/irvine"
+        />
+        <Restaurant 
+          name="Marufuku Ramen" 
+          location="Irvine Spectrum" 
+          photo="../public/images/ramen.jpg" 
+          link="https://www.marufukuramen.com/irvine"
+        />
+        <Restaurant 
+          name="Marufuku Ramen" 
+          location="Irvine Spectrum" 
+          photo="../public/images/ramen.jpg" 
+          link="https://www.marufukuramen.com/irvine"
+        />
       </div>
     </div>
   )
