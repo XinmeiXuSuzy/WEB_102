@@ -4,12 +4,16 @@
   background-color: #fcf7ed;
 }
 
+html {
+  margin-bottom: 5rem;
+}
+
 .title {
   margin-bottom: 5rem;
 }
 
 h1 {
-  margin: 10rem auto 3rem;
+  margin: 11rem auto 3rem;
   font-size: 3.5rem;
   font-family: "C";
   letter-spacing: 2px;
