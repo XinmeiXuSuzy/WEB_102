@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  border-radius: 8px;
+  width: 50rem;
+  height: 20rem;
+  margin: 5rem auto;
+  place-items: center;
+  box-shadow: 0 0 30px rgb(118, 118, 118);
+  justify-items: center;
+}
+
+.text {
+  font-size: 2rem;
+  text-align: center;
+  padding: 5rem;
+}
