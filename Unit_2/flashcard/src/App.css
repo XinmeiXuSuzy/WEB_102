@@ -5,18 +5,62 @@
   text-align: center;
 }
 
+.App {
+  margin-top: 7rem;
+}
+
 .card {
-  border-radius: 8px;
+  border-radius: 10px;
   width: 50rem;
   height: 20rem;
   margin: 5rem auto;
   place-items: center;
-  box-shadow: 0 0 30px rgb(118, 118, 118);
+  box-shadow: 0 0 30px rgb(154, 154, 154);
   justify-items: center;
+  perspective: 1000px; /* Creates 3D effect */
+  cursor: pointer;
 }
 
-.text {
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card.front .card-inner {
+  transform: rotateY(0deg);
+}
+
+.card.back .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-front {
+  background: white;
+}
+
+.card-back {
+  background: lightblue;
+  transform: rotateY(180deg);
+}
+
+.card-inner p {
   font-size: 2rem;
-  text-align: center;
-  padding: 5rem;
+  padding: 3rem;
 }
